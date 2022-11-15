@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 .container{
-    background-color: aqua;
-    min-height: 70px;
-    display: flex;
-    align-items: center;
+    background-image: url(img/jumbo.png);
+    min-height: 400px;
+    background-size: cover;
+    
 
 }
 header,main,footer{
@@ -16,27 +16,40 @@ header,main,footer{
     
 }
 .display-flex{
-    background-color: orange;
-    border: 1px dashed black;
     display: flex;
-    
-    width: 1000px;  
+    justify-content: center;
+    margin: 50px;
+     
 }
 .logo,.link,.login{
-    border: 1px dashed black;
+    
     width: 900px;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 .link{
     display: flex;
     justify-content: space-around;
+    
+    
+   
 }
 .login{
     display: flex;
     justify-content:flex-end;
 }
+.button{
+    border-radius: 30% 30% 30% 30%;
+    background-color: white;
+    border-color: white;
+    padding: 10px;
+    
+}
 .containerdue{
-    background-color: blue;
-    border: 1px dashed black;
+    text-align: center;
     
    
 
@@ -47,42 +60,75 @@ main{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.quadrato-rosa{
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sfondo{
+    background-color: lightgrey;
+}
+.testo{
+    text-align: center;
     height: 400px;
-    width: 800px;
-    border: 1px dashed black;
+    width: 600px;
+    
+}
+h1,p{
+    color: white;
+}
+p{
+    margin: 20px;
+}
+h1{
+    margin: 30px;
+}
+.button-black{
+    background-color: black;
+    color: white;
+    border-radius: 30%;
+    padding: 10px;
 }
 .container-tre{
    background-color: white;
     
-    border: 1px dashed black;
+    
 }
-.quadrato-viola{
-   background-color: purple;
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.news{
+    color: black;
+}
+
+.testo2{
+    
     display: flex;
     height : 300px;
     width: 400px;
-    justify-content: center;
-    align-items: center;
-    border: 1px dashed black;
+    flex-direction: column;
+    
+    
 }
 .quadrato-azzurro{
-    background-color: cornflowerblue;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 300px;
-    border: 1px dashed black;
+    height: 200px;
+    
 }
 .container-quattro{
     background-color: lightgrey;
+    min-height: 400px;
+   
+    
+    
+}
+.testo3{
     display: flex;
-    border: 1px dashed black;
+    height : 300px;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
     
 }
 .quadrato-verde{
