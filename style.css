@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Arimo', sans-serif;
+}
 .container{
     background-image: url(img/jumbo.png);
     min-height: 400px;
@@ -58,11 +61,14 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
-.sfondo{
-    background-color: lightgrey;
+.immagine{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
 }
+
 .testo{
     text-align: center;
     height: 400px;
@@ -118,7 +124,7 @@ h1{
 }
 .container-quattro{
     background-color: lightgrey;
-    min-height: 400px;
+    
    
     
     
@@ -131,36 +137,46 @@ h1{
     flex-direction: column;
     
 }
-.quadrato-verde{
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.testo4{
+    text-align: center;
     width: 1000px;
     height: 1000px;
-    border: 1px dashed black;
+    
+    
+}
+.bottone2{
+    background-color: cornflowerblue;
+    border-radius: 30%;
+    border-color: white;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
 }
 .container-cinque{
     background-color: black;
     display: flex;
-    border: 1px dashed black;
+    
 
 }
-.quadrato-giallo{
-    background-color: yellow;
+.testo5{
+    flex-direction: column;
     display: flex;
-    justify-content: center;
     height: 300px;
     width: 400px;
-    border: 1px dashed black;
-}
-.quadrato-arancione{
-    background-color: orange;
-    display: flex;
-    justify-content: center;
+}   
+.testo6{
+  
+   
     height: 300px;
     width: 150px;
-    border: 1px dashed black;
+   
+}
+li{
+    margin: 8px;
+    
+}
+.news2{
+    vertical-align: middle;
 }
 hr{
     color: grey;
@@ -174,9 +190,9 @@ hr{
 
 }
 .display{
-    border: 1px dashed black;
+    
     display: flex;
-    background-color: aqua;
+    
     width: 1000px; 
     height: 70px;
     align-items: center;
@@ -184,12 +200,18 @@ hr{
     
    
 }
-.logo2,.bottone{
-    background-color: lightgrey;
-    border: 1px dashed black;
-    height: 20px;
-    display: flex;
-   
+.bottone3{
+    background-color: cornflowerblue;
+    border-radius: 30%;
+    border-color: white;
+    color: white;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+.lista{
+    color: rgba(135, 30, 233, 0.966);
 }
 
 
